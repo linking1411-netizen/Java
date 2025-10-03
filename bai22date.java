@@ -13,7 +13,7 @@ public class bai22date {
        
         SimpleDateFormat dinhDang = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss a");
 
-       
+        
         System.out.println("Thời gian hiện tại: " + dinhDang.format(d));
 
         
