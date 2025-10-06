@@ -38,5 +38,17 @@ public class bai27bt2 {
             System.out.println("Xin mời nhập vào một số: ");
             int so = sc.nextInt();
             boolean ktra = false;
+            String vitri = "";
+            for (int i = 0; i<n;i++){
+                if (M[i] == so){
+                    ktra = true;
+                    vitri+= (i+" ");
+                }
+            }
+            if (ktra){
+                System.out.println(so+ " có tồn tại trong mảng và nằm ở vị trí index là "+vitri);
+            } else {
+                System.out.println("Số này không tồn tại ở trong mảng.");
+            }
     }
 }
