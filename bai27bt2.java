@@ -10,10 +10,22 @@ public class bai27bt2 {
         int[] M = new int[n];
         System.out.println(Arrays.toString(M));
         for (int i=0; i<n; i++){
-            int ngauNhien = rd.nextInt(4);
+            int ngauNhien = rd.nextInt(5);
             M[i] = ngauNhien;
         }
         System.out.println("Số mảng ngẫu nhiên vừa tạo ra là: ");
         System.out.println(Arrays.toString(M));
+
+        for (int i = 0, j = n-1; i<j; i++, j--){
+            int temp = M[i];
+            M[i] = M[j];
+            M[j] = temp;
+        }
+            System.out.println("Mảng sau khi đổi là: ");
+            System.out.println(Arrays.toString(M));
+
+            Arrays.sort(M);
+            System.out.println("Mảng sx theo thứ tự tăng dần  là: ");
+            System.out.println(Arrays.toString(M));
     }
 }
