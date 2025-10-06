@@ -13,7 +13,5 @@ public class bai26bt9{
         } else {
         System.out.println("Đây không phải là chuỗi panlyndrome.");
         }
-
-
     }
 }
