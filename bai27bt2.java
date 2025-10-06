@@ -27,5 +27,16 @@ public class bai27bt2 {
             Arrays.sort(M);
             System.out.println("Mảng sx theo thứ tự tăng dần  là: ");
             System.out.println(Arrays.toString(M));
+
+
+            int tong=0;
+            for (int pt: M){
+                tong+=pt;
+            }
+            System.out.println("Tổng các số pt trong mảng là: "+tong);
+
+            System.out.println("Xin mời nhập vào một số: ");
+            int so = sc.nextInt();
+            boolean ktra = false;
     }
 }
