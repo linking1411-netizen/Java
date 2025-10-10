@@ -5,7 +5,7 @@ public class bai28bt2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Mời nhập vào số phần tử trong list: ");
         int n = sc.nextInt();
-        ArrayList list = new ArrayList<>();
+        ArrayList <Integer> list = new ArrayList<>();
         for (int i = 0; i<n;i++){
             System.out.println("Mời nhập vào phần tử thứ: "+(i+1));
             int soNhap = sc.nextInt();
