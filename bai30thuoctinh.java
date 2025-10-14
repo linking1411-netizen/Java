@@ -12,8 +12,9 @@ public class bai30thuoctinh{
         sv4.setHoTen("Sửu");
         sv4.setDiem(5);
         sv4.hienThiThongTin();
+        double dtbsv4 = sv4.tinhDTB(8,6);
+        System.out.println(dtbsv4);
     
-    
-
+        sv4.checkDiemHopLe();
     }
 }
