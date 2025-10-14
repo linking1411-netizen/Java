@@ -9,5 +9,11 @@ public class bai30thuoctinh{
         sv3.hienThiThongTin();
         Sinhvien sv4 = new Sinhvien("Tí",9.5);
         sv4.hienThiThongTin();
+        sv4.setHoTen("Sửu");
+        sv4.setDiem(5);
+        sv4.hienThiThongTin();
+    
+    
+
     }
 }

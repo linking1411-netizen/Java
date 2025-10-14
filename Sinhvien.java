@@ -19,6 +19,16 @@ public class Sinhvien{
     public void hienThiThongTin(){
         System.out.println(hoTen+ " : "+diem);
     }
-
-
+      public String getHoTen(){
+            return  hoTen;
+        }
+        public double  getDiem(){
+            return diem;
+        }
+        public void setHoTen(String hoTen){
+            this.hoTen = hoTen;
+        }
+        public void setDiem(double diem){
+            this.diem = diem;
+        }
     }
